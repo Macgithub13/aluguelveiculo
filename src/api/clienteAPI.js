@@ -18,3 +18,10 @@ export async function cadastrarCliente(nome,email,telefone,cpf,cnh){
 
     return resp.data;
 }
+
+export async function procurarClientes(nome){
+
+    const resp = await apiCliente.get(`/cliente/nome?nome=${nome}`);
+
+    return resp.data;
+}
