@@ -1,0 +1,52 @@
+.menu-adm{
+
+    display: flex;
+    flex-direction: column;
+
+    height:100vh;
+    width: 10%;
+
+    background-color: #000;
+    color:#fff;
+
+    .logo{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding:30px;
+        margin-bottom:50px;
+
+        #nome-logo{
+
+            font-family: 'Yaldevi', sans-serif;
+            font-size:18px;
+        }
+    }
+
+    .menu-selection{
+
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+        .link{
+
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            align-items: center;
+
+            width:100%;
+            height:50px;
+
+            gap:10px;
+
+            text-decoration: none;
+            color:#fff;
+            font-family: 'Inter', sans-serif;
+            font-weight:600;
+        }
+    }
+}

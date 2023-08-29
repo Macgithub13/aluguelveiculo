@@ -1,0 +1,35 @@
+.cabecalho{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width:90vw;
+    height:10vh;
+
+    padding:0px 20px;
+    margin-bottom:60px;
+
+    background-color: #fff;
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.19);
+
+    p{
+
+        font-family: 'Work Sans', sans-serif;
+        font-size:14px;
+        color:#A79F9F;
+    }
+
+    div{
+
+        padding:15px 22px;
+
+        border-radius:50%;
+
+        background-color: #F47A08;
+
+        color:#fff;
+        font-family: 'Poppins', sans-serif;
+    }
+}
