@@ -269,7 +269,7 @@ export default function ClienteAdm(){
 
                                 {clientes.map(item=> 
                                 
-                                <tr style={{border: "1.32px solid #D4D4D4"}}>
+                                <tr>
                                     
                                     <td>{item.NM_CLIENTE}</td>
                                     <td>{item.DS_CPF}</td>
