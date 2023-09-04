@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&=Poppins&family=Work+Sans:wght@600&family=Yaldevi:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&family=Work+Sans:wght@600&family=Yaldevi:wght@700&display=swap');
 
 // font-family: 'Inter', sans-serif;
 // font-family: 'Poppins', sans-serif;
@@ -78,4 +78,14 @@ label{
             font-size:16px;
         }
     }
+}
+
+.estilizar-botao{
+
+    width:100px;
+    height:36px;
+
+    border-radius:5px;
+    background: #7A14C0;
+    color:#fff;
 }
